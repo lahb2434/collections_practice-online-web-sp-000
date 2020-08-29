@@ -47,6 +47,14 @@ def add_s(array)
   return array 
  end
 
+array.collect do |key, value|
+  i = value
+  if value < i 
+    value = i
+  end
+ i
+  
+end
 
 
 
